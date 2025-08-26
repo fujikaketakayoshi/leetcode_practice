@@ -4,5 +4,11 @@ for i in range(n):
     for j in range(i + 1, n):
         print (i, j)
 
-for i in range(len(nums), 0, -1):
+for i in range(n, 0, -1):
+    print(i)
+
+for i in range(4,7):
+    print(i)
+
+for i in list(range(4,7)):
     print(i)
