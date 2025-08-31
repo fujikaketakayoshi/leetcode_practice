@@ -8,3 +8,8 @@ for i, num in enumerate(nums):
         print([seen[complement], i], 'goal!')
     seen[num] = i
     print(seen)
+
+
+s = 'abcdef'
+for i, ch in enumerate(s):
+    print(i, ch)
