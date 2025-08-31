@@ -3,6 +3,7 @@ seen = set()
 
 # 要素を追加
 seen.add("a")
+seen.add("a")
 seen.add("b")
 print(seen)   # {'a', 'b'}
 
