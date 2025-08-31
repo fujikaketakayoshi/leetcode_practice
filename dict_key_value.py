@@ -8,3 +8,10 @@ for key in my_dict:
 
 for key, value in my_dict.items():
     print(f"キー: {key}, バリュー: {value}")
+
+del my_dict["banana"]
+print(my_dict)
+
+popped = my_dict.pop("orange")
+print(f"Popped value: {popped}")
+print(my_dict)
