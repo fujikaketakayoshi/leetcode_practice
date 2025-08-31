@@ -23,3 +23,6 @@ print(arr)
 
 arr.insert(10, 22)
 print(arr)
+
+arr[2:2] = [33, 44, 55]
+print(arr)
