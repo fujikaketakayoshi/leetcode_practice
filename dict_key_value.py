@@ -18,5 +18,6 @@ print(my_dict)
 
 my_dict["grape"] = 180
 print(my_dict)
-print(my_dict.get("apple", 20))
+apple = my_dict.get("apple", 20)
+print(apple)
 print(my_dict.get("napple", 20))
