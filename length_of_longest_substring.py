@@ -1,4 +1,4 @@
-def dict_ver(s:str):
+def dict_ver(s:str) -> int:
     last_seen = {}   # 文字 -> インデックス
     left = 0
     max_len = 0
@@ -13,7 +13,7 @@ def dict_ver(s:str):
         max_len = max(max_len, right - left + 1)
     return max_len
 
-def set_ver(s:str):
+def set_ver(s:str) -> int:
     seen = set()
     left = 0
     max_len = 0
