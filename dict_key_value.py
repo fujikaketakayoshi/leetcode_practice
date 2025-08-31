@@ -15,3 +15,8 @@ print(my_dict)
 popped = my_dict.pop("orange")
 print(f"Popped value: {popped}")
 print(my_dict)
+
+my_dict["grape"] = 180
+print(my_dict)
+print(my_dict.get("apple", 20))
+print(my_dict.get("napple", 20))
