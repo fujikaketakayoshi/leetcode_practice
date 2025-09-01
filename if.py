@@ -1,6 +1,8 @@
 num = 100
-mod = num % 2
+mod = num % 3
 if mod == 0:
-    print('even')
+    print(f"{num}は3の倍数です")
+elif mod == 1:
+    print(f"{num}を3で割った余りは1です")
 else:
-    print('odd')
+    print(f"{num}を3で割った余りは2です")
