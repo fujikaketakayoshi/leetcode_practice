@@ -1,4 +1,4 @@
-def findMedianSortedArrays(nums1, nums2):
+def findMedianSortedArrays(nums1: list, nums2: list):
     nums = nums1 + nums2
     n = len(nums)
     nums.sort()

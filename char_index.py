@@ -1,3 +1,3 @@
-str = 'abcdef'
-print(str[0], str[3], str[2:5])
-print(len(str))
+string = 'abcdef'
+print(string[0], string[3], string[2:5])
+print(len(string))
