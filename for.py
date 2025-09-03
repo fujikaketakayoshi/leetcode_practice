@@ -12,3 +12,8 @@ for i in range(4,7):
 
 for i in list(range(4,7)):
     print(i)
+
+
+str = "abcdef"
+for i in range(len(str)):
+    print(i, str[i])
