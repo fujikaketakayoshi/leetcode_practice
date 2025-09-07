@@ -9,5 +9,8 @@ lists[1].append(2)
 lists[2].append(3)
 print(lists)
 
-lists[5].append(4)
+#lists[5].append(4)
+#print(lists)
+
+lists.append([123])
 print(lists)
