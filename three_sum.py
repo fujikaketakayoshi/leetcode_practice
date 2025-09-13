@@ -5,7 +5,7 @@ class Solution:
         n = len(nums)
 
         for i in range(n - 2):
-            # 同じ値をスキップ（重複除去）
+            # 前と同じ値をスキップ（重複除去）
             if i > 0 and nums[i] == nums[i - 1]:
                 continue
 
