@@ -15,3 +15,14 @@ print(seen)   # {'b'}
 print("b" in seen)  # True
 print("c" in seen)  # False
 print(len(seen))  # 1
+
+seen2 = set()
+lst1 = [-1, 0, 1]
+lst2 = [-1, -1, 2]
+seen2.add(tuple(lst1))
+seen2.add(tuple(lst1))
+seen2.add(tuple(lst2))
+print(seen2)
+for i in seen2:
+    lst = list(i)
+    print(lst)
