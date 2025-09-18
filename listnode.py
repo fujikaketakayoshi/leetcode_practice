@@ -24,3 +24,15 @@ while current:
     print(current.val)
     # 次のノードに進む
     current = current.next
+
+arr = [1,2,3,4,5]
+# 連結リストの先頭ノードを作成
+dummy = ListNode()  # ダミーノード
+current = dummy
+
+for v in arr:
+    current.next = ListNode(v)
+    current = current.next
+
+head = dummy.next  # 先頭ノード
+print(head.val)
