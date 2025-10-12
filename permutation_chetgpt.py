@@ -21,4 +21,4 @@ class Solution:
 
 solution = Solution()
 print(solution.permute([1,2,3]))
-print(solution.permute([0,1]))
+#print(solution.permute([1,2,3,4,5,6]))
