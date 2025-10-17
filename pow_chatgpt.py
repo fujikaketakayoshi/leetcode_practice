@@ -1,9 +1,11 @@
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         def fast_pow(x, n):
+            #print(f"x: {x}, n: {n}")
             if n == 0:
                 return 1.0
             half = fast_pow(x, n // 2)
+            print(f"x: {x}, n: {n}, half: {half}")
             if n % 2 == 0:
                 return half * half
             else:
@@ -15,10 +17,10 @@ class Solution:
         return fast_pow(x, n)
 
 solution = Solution()
-print(solution.myPow(2.00000, 10))
-print(solution.myPow(2.10000, 3))
-print(solution.myPow(2.00000, -2))
-print(solution.myPow(2.00000, 0))
-print(solution.myPow(2.00000, -2147483648))
-print(solution.myPow(1.00000, -2147483648))
-print(solution.myPow(0.44528, 0))
+# print(solution.myPow(2.00000, 10))
+# print(solution.myPow(2.10000, 3))
+# print(solution.myPow(2.00000, -2))
+# print(solution.myPow(2.00000, 0))
+# print(solution.myPow(2.00000, -2147483648))
+# print(solution.myPow(1.00000, -2147483648))
+print(solution.myPow(0.44528, 10))
