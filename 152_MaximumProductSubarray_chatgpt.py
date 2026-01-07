@@ -13,7 +13,6 @@ class Solution:
 
             cur_max = max(x, cur_max * x)
             cur_min = min(x, cur_min * x)
-            print(cur_max, cur_min)
 
             ans = max(ans, cur_max)
 
