@@ -12,13 +12,13 @@ class Solution:
                     print(i, j)
                     is_prime[j] = False
 
-        return len([i for i in range(2, n) if is_prime[i]])
+        return len([i for i in range(2, n + 1) if is_prime[i]])
 
 solution = Solution()
 print(solution.countPrimes(10))  # 出力: 4
 print(solution.countPrimes(0))  # 出力: 0
 print(solution.countPrimes(1))  # 出力: 0
-print(solution.countPrimes(2))  # 出力: 0
-print(solution.countPrimes(3))  # 出力: 1
+print(solution.countPrimes(2))  # 出力: 1
+print(solution.countPrimes(3))  # 出力: 2
 print(solution.countPrimes(100))  # 出力: 25
 print(solution.countPrimes(150))  # 出力: 35
