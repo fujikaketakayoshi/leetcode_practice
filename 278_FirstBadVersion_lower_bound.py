@@ -1,5 +1,7 @@
 # The isBadVersion API is already defined for you.
 # def isBadVersion(version: int) -> bool:
+def isBadVersion(self, version: int) -> bool:
+        return version >= 4
 
 class Solution:
     def firstBadVersion(self, n: int) -> int:
