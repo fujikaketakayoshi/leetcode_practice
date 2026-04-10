@@ -12,8 +12,8 @@ class Solution:
                 g_ex_cnt[int(g)] += 1
         print(s_ex_cnt, g_ex_cnt)
         for i in range(10):
-            if s_ex_cnt[i] > 0 and g_ex_cnt[i] > 0:
-                b += min(s_ex_cnt[i], g_ex_cnt[i])
+            # if s_ex_cnt[i] > 0 and g_ex_cnt[i] > 0:
+            b += min(s_ex_cnt[i], g_ex_cnt[i])
         return str(a) + 'A' + str(b) + 'B'
 
 s = Solution()
