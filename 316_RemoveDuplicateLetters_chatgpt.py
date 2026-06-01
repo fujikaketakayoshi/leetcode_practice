@@ -6,7 +6,6 @@ class Solution:
         used = set()
 
         for i, c in enumerate(s):
-            
             if c in used:
                 continue
 
