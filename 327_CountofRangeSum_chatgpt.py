@@ -53,3 +53,6 @@ class Solution:
             return ans
 
         return merge_sort(0, len(prefix))
+
+s = Solution()
+print(s.countRangeSum([-2, 5, -1], -2, 2))
