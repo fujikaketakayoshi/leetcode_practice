@@ -23,3 +23,4 @@ s = Solution()
 print(s.minPatches([1, 3], 6))  # Output: 1
 print(s.minPatches([1, 5, 10], 20)) 
 print(s.minPatches([5, 10], 20)) 
+print(s.minPatches([], 20)) 
