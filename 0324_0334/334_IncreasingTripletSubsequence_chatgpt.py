@@ -9,6 +9,10 @@ class Solution:
             elif x <= second:
                 second = x
             else:
-                return True
+                # return True
+                return (first, second)
 
         return False
+
+s = Solution()
+print(s.increasingTriplet([2, 1, 5, 4, 6, 3, 7, 8, 9]))
