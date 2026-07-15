@@ -1,5 +1,5 @@
 class Solution:
-    def increasingTriplet(self, nums: List[int]) -> bool:
+    def increasingTriplet(self, nums: list[int]) -> bool:
         i, j, k = 0, 0, 0
         n = len(nums)
         while i < n - 2:
