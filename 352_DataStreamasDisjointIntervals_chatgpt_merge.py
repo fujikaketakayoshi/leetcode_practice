@@ -32,5 +32,5 @@ class SummaryRanges:
 
         self.intervals = new_intervals
 
-    def getIntervals(self) -> List[List[int]]:
+    def getIntervals(self) -> list[list[int]]:
         return self.intervals

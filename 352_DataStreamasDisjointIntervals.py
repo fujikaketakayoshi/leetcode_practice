@@ -59,7 +59,7 @@ class SummaryRanges:
                         print('7!')
         # print(self.intervals)
         return None
-    def getIntervals(self) -> List[List[int]]:
+    def getIntervals(self) -> list[list[int]]:
         return self.intervals
 
 
