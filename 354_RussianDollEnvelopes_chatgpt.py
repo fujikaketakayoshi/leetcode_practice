@@ -1,6 +1,6 @@
 from bisect import bisect_left
 class Solution:
-    def maxEnvelopes(self, envelopes: List[List[int]]) -> int:
+    def maxEnvelopes(self, envelopes: list[list[int]]) -> int:
         envelopes.sort(key=lambda x: (x[0], -x[1]))
         print(envelopes)
         heights = [h for w, h in envelopes]
