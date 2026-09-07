@@ -12,7 +12,7 @@ class Twitter:
         self.tweet_pos += 1
         self.user_tweets[userId].append((tweetId, self.tweet_pos))
         
-    def getNewsFeed(self, userId: int) -> List[int]:
+    def getNewsFeed(self, userId: int) -> list[int]:
         users = self.user_follows[userId]
         hq = []
         for userId in users:
