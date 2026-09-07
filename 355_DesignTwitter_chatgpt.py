@@ -18,7 +18,8 @@ class Twitter:
         for userId in users:
             if self.user_tweets[userId]:
                 tId, tPos = self.user_tweets[userId][-1]
-                heapq.heappush(hq, (-tPos, tId, userId, len(self.user_tweets[userId]) - 1))
+                hq.append( (-tPos, tId, userId, len(self.user_tweets[userId]) - 1) )
+        heapq.heapify(hq)
         
         feeds = []
         while len(feeds) < 10 and len(hq) > 0:
