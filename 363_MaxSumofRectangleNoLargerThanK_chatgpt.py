@@ -1,6 +1,5 @@
 from bisect import bisect_left, insort
 
-
 class Solution:
     def maxSumSubmatrix(self, matrix: list[list[int]], k: int) -> int:
         H = len(matrix)
