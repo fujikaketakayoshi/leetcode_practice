@@ -22,10 +22,13 @@ class Solution:
             while len(arr) < 10000:
                 ans.append(1)
                 arr.append(1)
-            return len(-ans)
+            return -len(ans)
         else:
             ans = []
             while len(arr) > 10000:
                 ans.append(1)
                 arr.pop()
             return len(ans)
+
+s = Solution()
+print(s.getSum(1, -2))
